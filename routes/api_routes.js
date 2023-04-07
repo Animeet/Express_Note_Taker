@@ -14,12 +14,10 @@ if (!fs.existsSync('db.json')) {
 }
 
 
-
 router.get('/api/notes', (client_request, server_response) => {
     const notes = fs.readFileSync('db.json');
     server_response.send(notes);
 });
-
 
 
 router.post('/api/notes', express.json(), (client_request, server_response) => {
@@ -32,9 +30,9 @@ router.post('/api/notes', express.json(), (client_request, server_response) => {
         if (error) {
             return console.log(error);
         }
+        server_response.send(note);
     });
 });
-
 
 
 router.delete('/api/notes/:id', (client_request, server_response) => {
@@ -44,9 +42,9 @@ router.delete('/api/notes/:id', (client_request, server_response) => {
         if (error) {
             return console.log(error);
         }
+        server_response.send(notes);
     });
 });
-
 
 
 module.exports = router;
