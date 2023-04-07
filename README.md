@@ -5,8 +5,9 @@
 
   - This application taught me much more about inquirers, and how we can use constructors on a more broadened spectrum.
 
+  - **Deployed URL:** https://animeet.github.io/Express_Note_Taker/
 
-  - [![Note Taker](./public/assets/images/dogwalk.png)]
+![Note Taker](./public/assets/images/dogwalk.png)
 
   ## Table of Contents
   - [Installation](#installation)
