@@ -5,7 +5,7 @@
 
   - This application taught me much more about inquirers, and how we can use constructors on a more broadened spectrum.
 
-  - **Deployed URL:** https://animeet.github.io/Express_Note_Taker/
+  - **Deployed URL:** https://dashboard.heroku.com/apps/sheltered-dawn-01253
 
 ![Note Taker](./public/assets/images/dogwalk.png)
 
